@@ -1,10 +1,10 @@
-# 📊 Stock & Revenue Dashboard — Tesla & GameStop
+# Stock & Revenue Dashboard — Tesla & GameStop
 
 > A data analytics project that extracts historical stock prices and quarterly revenue data for **Tesla (TSLA)** and **GameStop (GME)**, then visualizes them in a dual-panel dashboard built entirely in Python.
 
 ---
 
-## 🗂 Project Overview
+## Project Overview
 
 This project was completed as part of the **IBM Data Science Professional Certificate** on Coursera (Course: *Python Project for Data Science*). The goal is to simulate the workflow of a Junior Data Analyst — collecting, cleaning, and visualizing financial data to surface trends and insights for investors.
 
@@ -18,7 +18,7 @@ The notebook covers two parallel workflows:
 
 ---
 
-## 🔧 Tech Stack
+## Tech Stack
 
 | Library | Purpose |
 |---|---|
@@ -30,7 +30,7 @@ The notebook covers two parallel workflows:
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 ├── Revenue_Data_and_Building_a_Dashboard.ipynb   # Main Jupyter Notebook
@@ -39,7 +39,7 @@ The notebook covers two parallel workflows:
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 
@@ -66,7 +66,7 @@ pip install yfinance bs4 requests pandas matplotlib
 
 ---
 
-## 📌 Questions Solved
+## Questions Solved
 
 ### Question 1 — Tesla Stock Data (yfinance)
 Extracts the full historical stock price for Tesla using `yfinance`, resets the DataFrame index, and previews the first 5 rows.
@@ -88,7 +88,7 @@ Plots GameStop's historical share price alongside its quarterly revenue (data sh
 
 ---
 
-## 📈 Sample Output
+## Sample Output
 
 The dashboard for each company renders two stacked panels:
 
@@ -99,7 +99,7 @@ This layout makes it easy to visually compare how revenue performance correlates
 
 ---
 
-## 🧠 Key Concepts Demonstrated
+## Key Concepts Demonstrated
 
 - **Web scraping** with `requests` + `BeautifulSoup`
 - **API-based data extraction** with `yfinance`
@@ -109,7 +109,7 @@ This layout makes it easy to visually compare how revenue performance correlates
 
 ---
 
-## 📜 License
+## License
 
 This project is based on coursework from the [IBM Data Science Professional Certificate](https://www.coursera.org/professional-certificates/ibm-data-science) on Coursera. Original lab authored by Joseph Santarcangelo & Azim Hirjani © IBM Corporation 2020.
 
